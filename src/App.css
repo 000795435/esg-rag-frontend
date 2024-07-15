@@ -1,0 +1,178 @@
+p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1em;
+  font-weight: 300;
+  line-height: 1.7em;
+  color: #999;
+}
+
+a,
+a:hover,
+a:focus {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+
+.App {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  align-items: stretch;
+}
+
+.sidebar {
+  width: 200px;
+  height: 100%;
+  background: #7386D5;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+.sidebar .sidebar-header {
+  padding: 20px;
+  background: #6d7fcc;
+}
+
+.sidebar ul.components {
+  padding: 20px 0;
+  border-bottom: 1px solid #47748b;
+}
+
+.sidebar ul p {
+  color: #fff;
+  padding: 10px;
+}
+
+.sidebar ul li a {
+  padding: 10px;
+  font-size: 1.1em;
+  display: block;
+}
+
+.sidebar ul li a:hover {
+  color: #7386D5;
+  background: #fff;
+}
+
+.sidebar ul li.activate {
+  color: #7386D5;
+  background: #fff;
+}
+
+
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+
+.content {
+  width: 100%;
+  padding: 20px;
+  min-height: 100vh;
+  transition: all 0.3s;
+}
+
+
+/* ---------------------------------------------------
+    Chatbot STYLE
+----------------------------------------------------- */
+.chat {
+  height: 85vh;
+  overflow-y: auto;
+  overflow-x: auto;
+}
+
+.chat-history {
+  margin-left: 20%;
+  width: 60%;
+}
+
+.card-message {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  float: left;
+}
+
+.input-section {
+  margin-left: 20%;
+  width: 60%;
+}
+
+/* ---------------------------------------------------
+    PDF Style
+----------------------------------------------------- */
+
+.upload-box {
+  text-align: center;
+  border: 2px dashed black;
+  border-radius: 10%;
+  width: 30%;
+  margin-left: 35%;
+  margin-top: 5%;
+  height: 300px;
+  padding: 5px;
+  user-select: none;
+}
+
+.upload-box:hover {
+  background-color: #d9d9d9;
+  cursor: pointer;
+}
+
+.upload-box .files {
+  display: none;
+}
+
+.png-file-icon {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  width: 50px;
+  pointer-events: none;
+}
+
+.btn-upload {
+  width: 30%;
+  margin-left: 35%;
+  margin-top: 10px;
+}
+
+.display-section {
+  height: 90vh;
+}
+
+.display-pdf-section {
+  float: left;
+  width: 50%;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: auto;
+}
+
+.pdf-chat-section {
+  float: left;
+  width: 40%;
+  height: 100%;
+  margin-left: 5%;
+}
+
+.pdf-chat {
+  height: 85vh;
+  overflow-y: auto;
+  overflow-x: auto;
+}
+
+.pdf-chat-history {
+  width: 100%;
+}
