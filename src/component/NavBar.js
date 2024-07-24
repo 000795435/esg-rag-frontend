@@ -10,12 +10,18 @@ export default function NavBar() {
 
                 <ul className="list-unstyled components">
                     <li className={window.location.pathname === '/' ? 'activate' : ''}>
-                        <a href="/">Chatbot</a>
-                    </li>
-                    <li className={window.location.pathname === '/pdf/' ? 'activate' : ''}>
-                        <a href="/pdf/">PDF Reader</a>
+                        <a href="/">PDF Reader</a>
                     </li>
                 </ul>
             </nav>
         </div>)
 }
+
+
+/**
+
+                    <li className={window.location.pathname === '/' ? 'activate' : ''}>
+                        <a href="/">Chatbot</a>
+                    </li>
+
+ */
